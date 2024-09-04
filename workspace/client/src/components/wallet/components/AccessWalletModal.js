@@ -61,7 +61,7 @@ const AccessWalletModal = props => {
                   <input
                     type="text"
                     onChange={({ target }) => setPrivateKey(target.value)}
-                    placeholder="Input your private key here!"
+                    placeholder="Input private key"
                     class="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative  bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                   />
                 </div>
@@ -70,7 +70,7 @@ const AccessWalletModal = props => {
               <div className="mt-4">
                 <button
                   type="button"
-                  className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                  className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 border border-transparent rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                   onClick={onSubmitForm}
                 >
                   Access
