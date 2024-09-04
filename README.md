@@ -1,6 +1,8 @@
 # MyTrippleCoin
 
-#start
+#install
+Yarn install
+
 
 #server
 
