@@ -80,7 +80,7 @@ const SendTransaction = () => {
             )}
             Send
           </button>
-          {isSuccess && <div className="text-2xl font-bold mt-5 text-green-400">Success! Your transaction already in the pool</div>}
+          {isSuccess && <div className="text-2xl font-bold mt-5 text-black-400">Success</div>}
         </div>
       </div>
     </div>
